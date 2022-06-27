@@ -12,9 +12,13 @@
 </head>
 <body>
   <div class="container">
-    <div class="main-div">
+    <div class="main-div" id="main">
       <div class="img-div">
-        <img class="perfume-img" src="./images/image-product-desktop.jpg" alt="">
+        <picture class="perfume-img">
+          <source media="(max-width: 1440)" class="perfume-img" srcset="./images/image-product-desktop.jpg">
+          <source media="(max-width: 375px)" class="perfume-img-mobile" srcset="./images/image-product-mobile.jpg">
+          <img class="perfume-img" src="./images/image-product-desktop.jpg" alt="imagealttext">
+        </picture>
       </div>
       <div class="text-div">
         <p class="text-title">P E R F U M E</p>

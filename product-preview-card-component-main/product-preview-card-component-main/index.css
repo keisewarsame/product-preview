@@ -99,3 +99,39 @@ p {
 .img {
     width: 11px;
 }
+
+.perfume-img-mobile {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .main-div {
+      flex-direction: column;
+      margin-left: 13px;
+      margin-top: -190px;
+      }
+    .perfume-img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        width: 350px;
+        height: 490px;
+        margin-bottom: -10px;
+      }
+    .text-div {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .button {
+        margin-right: 20px
+    }
+    .cart-buttom {
+      margin-right: 90px;  
+    }
+    .text-div button {
+      margin-right: 50px;
+    }
+
+  }
